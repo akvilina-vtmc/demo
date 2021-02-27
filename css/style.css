@@ -383,6 +383,9 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-logo {
     width: 100%;
+    padding-bottom: 20px;
+    font-size: 30px;
+    margin-top: 10px;
     float: none;
     text-align: center;
   }
@@ -1377,7 +1380,7 @@ figure {
   .fh5co-nav-toggle {
     display: block;
     top: 0px;
-    margin-top: 2em;
+    margin-top: 1em;
   }
 }
 
