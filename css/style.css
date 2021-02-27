@@ -525,7 +525,7 @@ figure {
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
   color: #ff5722 !important;
 }
-
+#thank-you
 #fh5co-work-section,
 #fh5co-services-section,
 #fh5co-content-section,
@@ -535,6 +535,7 @@ figure {
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
+  #thank-you
   #fh5co-work-section,
   #fh5co-services-section,
   #fh5co-content-section,
@@ -877,11 +878,11 @@ figure {
   padding: 7em 0;
 }
 
-#fh5co-services, #fh5co-about, #fh5co-contact {
+#fh5co-services, #fh5co-about, #fh5co-contact{
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-about, #fh5co-contact {
+  #fh5co-services, #fh5co-about, #fh5co-contact{
     padding: 4em 0;
   }
 }
@@ -1465,6 +1466,19 @@ figure {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
+}
+
+.reg-form .row{
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
 }
 
 /*# sourceMappingURL=style.css.map */
