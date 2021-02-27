@@ -368,11 +368,14 @@ figure {
 #fh5co-logo {
   position: relative;
   z-index: 2;
-  font-size: 22px;
-  text-transform: uppercase;
-  margin-top: 35px;
+  font-size: 35px;
+  margin-top: 20px;
   font-weight: 700;
   float: left;
+  margin-bottom: -20px;
+}
+#logotipas{
+  margin-top: -20px;
 }
 #fh5co-logo span {
   font-weight: 700;
